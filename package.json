@@ -1,0 +1,30 @@
+{
+  "name": "get-object-from-json",
+  "version": "1.0.0",
+  "description": "A more helpful alternative to JSON.parse()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/get-object-from-json.git"
+  },
+  "keywords": [
+    "get",
+    "object",
+    "JSON",
+    "parse",
+    "alternative",
+    "function"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/get-object-from-json/issues"
+  },
+  "homepage": "https://github.com/writetome51/get-object-from-json#readme",
+  "dependencies": {
+    "basic-data-handling": "latest"
+  }
+}
