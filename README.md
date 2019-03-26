@@ -1,6 +1,4 @@
-# getObjectFromJSON
-
-## getObjectFromJSON(jsonString); // returns object
+## getObjectFromJSON(jsonString): Object
 
 `getObjectFromJSON()` is a more helpful alternative to using `JSON.parse()`.  
 The reason?  The error messages.
@@ -12,15 +10,12 @@ the error message you get is cryptic.
 other than a string, you get 'Input must be string', and if the string is not   
 strictly formatted as JSON, you get 'Argument is not in JSON format'.
 
-## Installation
+### Installation
 
-You must have npm installed first.  Then, in the command line:
+`npm i  get-object-from-json`
 
-```bash
-npm install get-object-from-json
-```
 
-## Loading
+### Loading
 ```
 // If using TypeScript:
 import { getObjectFromJSON } from 'get-object-from-json';
