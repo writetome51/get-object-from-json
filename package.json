@@ -1,6 +1,6 @@
 {
   "name": "get-object-from-json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A more helpful alternative to JSON.parse()",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/writetome51/get-object-from-json#readme",
   "dependencies": {
-    "basic-data-handling": "~1.0.15"
+    "error-if-not-string": "~1.0.0"
   }
 }

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var errorIfNotString_1 = require("basic-data-handling/errorIfNotString");
+var errorIfNotString_1 = require("error-if-not-string");
 
 // Preferable to calling JSON.parse() because JSON.parse() doesn't
 // tell you if the passed argument is not in JSON format.
