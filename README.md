@@ -1,4 +1,4 @@
-## getObjectFromJSON(jsonString): Object
+# getObjectFromJSON(jsonString): object
 
 `getObjectFromJSON()` is a more helpful alternative to using `JSON.parse()`.  
 The reason?  The error messages.
@@ -16,9 +16,6 @@ strictly formatted as JSON, you get 'Argument is not in JSON format'.
 
 
 ### Loading
-```
-// If using TypeScript:
+```js
 import { getObjectFromJSON } from 'get-object-from-json';
-// If using ES5 JavaScript:
-var getObjectFromJSON = require('get-object-from-json').getObjectFromJSON;
 ```
