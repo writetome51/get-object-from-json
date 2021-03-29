@@ -1,9 +1,10 @@
 {
   "name": "get-object-from-json",
-  "version": "2.0.0",
-  "description": "A more helpful alternative to JSON.parse()",
+  "version": "2.0.1",
+  "description": "An alternative to JSON.parse() that gives more helpful error messages",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

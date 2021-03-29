@@ -1,0 +1,1 @@
+export declare function getObjectFromJSON(jsonString: string): object;
